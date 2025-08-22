@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High Tech Learning Centre</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f8f9fa; color:#333; }
+    header { background:url('images/hero-bg.jpg') center/cover no-repeat; height:400px; color:white; display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center; }
+    header img { max-width:120px; margin-bottom:10px; }
+    header h1 { font-size:3rem; margin:0; }
+    header p { font-size:1.2rem; }
+    section { padding:50px 20px; max-width:1200px; margin:auto; }
+    .courses { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .course-card { background:white; border-radius:10px; padding:20px; box-shadow:0 4px 8px rgba(0,0,0,0.1); text-align:center; }
+    .course-card img { max-width:80px; margin-bottom:10px; }
+    form { display:flex; flex-direction:column; gap:15px; max-width:500px; margin:auto; }
+    input, textarea { padding:10px; border:1px solid #ccc; border-radius:5px; width:100%; }
+    button { padding:12px; background:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer; }
+    button:hover { background:#0056b3; }
+    footer { background:#343a40; color:white; text-align:center; padding:20px; margin-top:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="High Tech Learning Centre Logo">
+  <h1>High Tech Learning Centre</h1>
+  <p>Admissions Open Now - Join Online & Offline Courses</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>High Tech Learning Centre is committed to providing quality computer education with practical training. We offer both online and offline classes with expert guidance.</p>
+</section>
+
+<section>
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="course-card">
+      <img src="images/dca.png" alt="DCA">
+      <h3>DCA</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/adca.png" alt="ADCA">
+      <h3>ADCA</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/tally.png" alt="Tally">
+      <h3>Tally</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/dtp.png" alt="DTP">
+      <h3>DTP</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/excel.png" alt="Advanced Excel">
+      <h3>Advanced Excel</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/word.png" alt="Advanced Word">
+      <h3>Advanced Word</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/powerpoint.png" alt="Advanced PowerPoint">
+      <h3>Advanced PowerPoint</h3>
+    </div>
+    <div class="course-card">
+      <img src="images/hardware.png" alt="Hardware">
+      <h3>Hardware</h3>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Admission Form</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 High Tech Learning Centre. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
